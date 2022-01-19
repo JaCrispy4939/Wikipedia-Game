@@ -12,7 +12,7 @@ def start():
       allText = file.read()
       words = list(map(str, allText.split()))
     
-      # print random string
+     
       print("Starting topic: " + random.choice(words))
 
 def end():
